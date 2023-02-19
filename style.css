@@ -2,6 +2,7 @@
   font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
   margin: 0;
   text-rendering: optimizeLegibility;
+  background-color: #2A2C2F;
 }
 
 .page__container {
@@ -11,7 +12,6 @@
   align-items: center;
   flex-direction: column;
   margin: 0 auto;
-  background-color: #2A2C2F;
 }
 
 
@@ -251,11 +251,16 @@ margin: 92px 442px 92px 148px;
 
 .place__description {
   grid-area: description;
+}
+
+ .place__paragraph {
   font-weight: 400;
-  line-height: 163%;
+  line-height: 1.63;
   font-size: 18px;
   margin: 0;
-}
+  padding: 0;
+ }
+
 
 .cover__title {
   font-weight: 900;
