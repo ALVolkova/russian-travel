@@ -7,3 +7,10 @@
   opacity: 100%;
   transition-property: opacity;
 }
+
+@media screen and (max-width: 320px) {
+  .header__link-choice {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

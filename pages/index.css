@@ -13,6 +13,7 @@
 @import url(../blocks/content/__link/content__link.css);
 @import url(../blocks/content/__places/content__places.css);
 @import url(../blocks/content/__cover/content__cover.css);
+@import url(../blocks/content/__intro/content__intro.css);
 
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
