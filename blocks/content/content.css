@@ -1,0 +1,9 @@
+.content {
+  color: white;
+  max-width: 1280px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto 0 auto;
+
+}

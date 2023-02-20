@@ -1,0 +1,11 @@
+.place__link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  list-style-type: none;
+  padding-top: 12px;
+  opacity: 100%;
+  transition-property: opacity;
+  margin: 0;
+}

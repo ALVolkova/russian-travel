@@ -1,0 +1,5 @@
+.header__lang-options {
+  display: flex;
+  list-style-type: none;
+  align-items: end;
+}

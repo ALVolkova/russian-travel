@@ -1,0 +1,4 @@
+.content__link:hover {
+  opacity: 50%;
+  transition: linear 0.5s;
+}
