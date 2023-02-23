@@ -1,8 +1,9 @@
 .footer__links {
   display: flex;
-  align-items: start;
+  flex-direction: row;
   list-style-type: none;
   margin: 0;
+
 }
 .footer__links:first-child {
   padding: 0;
@@ -10,4 +11,28 @@
 
 .footer__links:last-child {
   padding: 0;
+}
+
+
+/*@media screen and (max-width: 320px) {
+  .footer__links {
+    display: flex;
+    flex-direction: column;
+
+    outline: 1px solid rgb(72, 143, 44);
+
+  }
+}
+*/
+@media screen and (max-width: 320px) {
+  .footer__links {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    outline: 1px solid skyblue;
+
+
+
+  }
 }

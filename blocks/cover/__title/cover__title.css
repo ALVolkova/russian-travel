@@ -11,3 +11,31 @@
   z-index: 1;
   color: #ffffff;
 }
+
+
+@media screen and (max-width: 1024px) {
+  .cover__title {
+
+    left: 232px;
+    top: 195px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__title {
+
+    left: 104px;
+    top: 115px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__title {
+    font-size: 32px;
+    line-height: 35px;
+    max-width: 288px;
+    left: 16px;
+    top: 33px;
+
+  }
+}

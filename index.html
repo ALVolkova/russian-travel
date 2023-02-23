@@ -12,20 +12,20 @@
 <body class="page">
   <header class="header">
     <img class="header__logo" src="./images/header-logo.svg" alt="логотип карта России">
-    <ul class="header__lang-options">
-      <li><a href="#" class="content__link header__lang-link header__link-choice header__link-choice_active">Ru</a></li>
-      <li><a href="#" class="content__link header__lang-link header__link-choice">En</a></li>
+    <ul  aria-label="Выбор языка" class="header__lang-options">
+      <li><a href="#" class="content__link  header__lang-choice header__lang-choice_active">Ru</a></li>
+      <li><a href="#" class="content__link  header__lang-choice">En</a></li>
     </ul>
   </header>
   <main class="content">
-    <section class="lead">
+    <section class="lead content__centered">
       <h1 class="lead__title">Путешествия по России</h1>
       <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-      <img class="lead__image" src="./images/lead-polka.jpg" alt="женщина на полке в вагоне, смотрит в окно">
+      <img class="lead__image content__centered" src="./images/lead-polka.jpg" alt="женщина на полке в вагоне, смотрит в окно">
       <p class="lead__caption">ВАША ПОЛКА - ВЕРХНЯЯ</P>
     </section>
 
-    <section class="intro content__intro">
+    <section class="intro">
       <h2 class="intro__title">Чего мы там не видели?</h2>
       <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести
         отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с
@@ -69,7 +69,7 @@
       </ul>
     </section>
     <section class="places content__places">
-      <article class="place content__places">
+      <article class="place content__place">
         <h3 class="place__title">Куршская коса</h3>
         <img class="place__image" src="./images/kosa.jpg" alt="Куршская коса">
         <div class="place__website">
@@ -86,7 +86,7 @@
             и запах стального, прохладного моря.</p>
         </div>
       </article>
-      <article class="place content__places">
+      <article class="place content__place">
         <h3 class="place__title">Кольский</h3>
         <img class="place__image" src="./images/kolsky.jpg" alt="Полуостров Кольский">
         <div class="place__website">
@@ -105,7 +105,7 @@
             в Мурманск.</p>
         </div>
       </article>
-      <article class="place content__places">
+      <article class="place content__place">
         <h3 class="place__title">Алтай</h3>
         <img class="place__image" src="./images/altai.jpg" alt="вид на лес с беседки">
         <div class="place__website">
@@ -124,8 +124,8 @@
             пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
         </div>
       </article>
-      <article class="place content__places">
-        <h3 class="place__title">Зимний Байкал</h3>
+      <article class="place content__place">
+        <h3 class="place__title content__text">Зимний Байкал</h3>
         <img class="place__image" src="./images/winter-baikal.jpg" alt="узоры на льду озера Байкал">
         <div class="place__website">
           <p class="place__url-heading">URL</p>
@@ -142,7 +142,7 @@
             В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
         </div>
       </article>
-      <article class="place content__places">
+      <article class="place content__place">
         <h3 class="place__title">Карелия</h3>
         <img class="place__image" src="./images/karelia.jpg" alt="леса в Карелии">
         <div class="place__website">
@@ -168,7 +168,7 @@
       </a>
     </section>
   </main>
-  <footer class="footer">
+  <footer class="footer content__centered">
     <ul class="footer__links">
       <li><a class="footer__link content__link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
       <li><a class="footer__link content__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>

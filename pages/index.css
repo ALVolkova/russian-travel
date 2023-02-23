@@ -6,14 +6,17 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-options/header__lang-options.css);
-@import url(../blocks/header/__link-choice/header__link-choice.css);
-@import url(../blocks/header/__link-choice/__link-choice_active/header__link-choice_active.css);
+@import url(../blocks/header/__lang-choice/header__lang-choice.css);
+@import url(../blocks/header/__lang-choice/__lang-choice_active/header__lang-choice_active.css);
 
 @import url(../blocks/content/content.css);
+@import url(../blocks/content/__centered/content__centered.css);
 @import url(../blocks/content/__link/content__link.css);
 @import url(../blocks/content/__places/content__places.css);
+@import url(../blocks/content/__place/content__place.css);
 @import url(../blocks/content/__cover/content__cover.css);
 @import url(../blocks/content/__intro/content__intro.css);
+
 
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
