@@ -9,7 +9,7 @@
 
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 470px) {
   .footer__links {
     width: 100%;
     display: flex;
