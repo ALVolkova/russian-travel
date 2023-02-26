@@ -1,10 +1,11 @@
 .content {
   color: white;
   max-width: 1280px;
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin: 0 auto;
+
 
 }
 

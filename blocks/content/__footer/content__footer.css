@@ -1,0 +1,12 @@
+.content__footer {
+  margin-bottom: 32px;
+}
+
+
+@media screen and (max-width: 320px) {
+
+.content__footer:first-child {
+    margin-top: 0;
+  }
+
+}

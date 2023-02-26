@@ -30,6 +30,8 @@
   }
 }
 
+
+
 @media screen and (max-width: 320px) {
   .place {
     display: grid;
@@ -40,9 +42,6 @@
     "website"
     "image"
     "description";
-
-
-
 
   }
 }
