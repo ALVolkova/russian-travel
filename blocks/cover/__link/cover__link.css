@@ -51,6 +51,19 @@
   }
 }
 
+@media screen and (max-width: 665px) {
+  .cover__link {
+    max-width: 665px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .cover__link {
+    max-width: 470px;
+  }
+}
+
+
 @media screen and (max-width: 320px) {
   .cover__link {
     max-width: 320px;
