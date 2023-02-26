@@ -1,13 +1,12 @@
-.content__footer {
+.page__footer {
   margin-bottom: 32px;
 }
 
 
 @media screen and (max-width: 320px) {
 
-.content__footer:first-child {
+.page__footer:first-child {
     margin-top: 0;
   }
 
 }
-
