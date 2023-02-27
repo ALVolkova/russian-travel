@@ -1,12 +1,14 @@
-.page__footer {
-  margin-bottom: 32px;
-}
+@media screen and (max-width: 640px) {
+  .page__footer {
+    margin-bottom: 32px;
+  }
 
-
-@media screen and (max-width: 320px) {
-
-.page__footer:first-child {
+  .page__footer:first-child {
     margin-top: 0;
+  }
+
+  .page__footer:last-child {
+    margin-bottom: 0;
   }
 
 }

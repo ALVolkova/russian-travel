@@ -1,26 +1,22 @@
 .content__place {
-margin-top: 80px;
+  margin-top: 80px;
 }
 
 .content__place:first-child {
   margin-top: 0;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .content__place {
+    margin-top: 73px;
   }
+}
 
-  @media screen and (max-width: 1024px) {
-    .content__place {
+@media screen and (max-width: 320px) {
+  .content__place {
+    margin-top: 50px;
 
-    }
   }
-
-  @media screen and (max-width: 768px) {
-    .content__place {
-      margin-top: 73px;
-    }
-  }
-
-  @media screen and (max-width: 320px) {
-    .content__place {
-      margin-top: 50px;
-
-    }
-  }
+}

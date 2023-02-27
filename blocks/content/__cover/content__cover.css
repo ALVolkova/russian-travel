@@ -4,23 +4,20 @@
 
 @media screen and (max-width: 1024px) {
   .content__cover {
-
-    margin: 0 0 92px 0;
+    margin-bottom: 92px;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
 @media screen and (max-width: 768px) {
   .content__cover {
-
-    margin: 0 0 88px 0;
-
+    margin-bottom: 88px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .content__cover {
-
-    margin: 0 0 64px 0;
-
+    margin-bottom: 64px;
   }
 }

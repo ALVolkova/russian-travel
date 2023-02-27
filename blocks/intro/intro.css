@@ -2,25 +2,22 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items:flex-start;
-  text-align:start;
+  align-items: flex-start;
+  text-align: start;
   max-width: 690px;
 
 
-  }
-  @media screen and (max-width: 768px) {
-    .intro {
+}
 
-      max-width: 720px;
-
-    }
+@media screen and (max-width: 768px) {
+  .intro {
+    max-width: 720px;
   }
+}
 
 
 @media screen and (max-width: 470px) {
   .intro {
-
     max-width: 440px;
-
   }
 }
