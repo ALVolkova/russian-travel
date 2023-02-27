@@ -5,12 +5,14 @@
 @import url(../blocks/page/__block-centered/page__block-centered.css);
 @import url(../blocks/page/__link/page__link.css);
 @import url(../blocks/page/__footer/page__footer.css);
+@import url(../blocks/page/__lang-choice/page__lang-choice.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
-@import url(../blocks/header/__lang-options/header__lang-options.css);
-@import url(../blocks/header/__lang-choice/header__lang-choice.css);
-@import url(../blocks/header/__lang-choice/__lang-choice_active/header__lang-choice_active.css);
+
+@import url(../blocks/lang-options/lang-options.css);
+@import url(../blocks/lang-options/__choice/lang-options__choice.css);
+@import url(../blocks/lang-options/__choice/_active/lang-options__choice_active.css);
 
 @import url(../blocks/content/content.css);
 @import url(../blocks/content/__centered/content__centered.css);

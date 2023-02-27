@@ -1,0 +1,7 @@
+.page__lang-choice {
+  margin-right: 18px;
+}
+
+.page__lang-choice:last-child {
+  margin-right: 0;
+}

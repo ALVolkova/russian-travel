@@ -1,4 +1,4 @@
-.header__lang-choice {
+.lang-options__choice {
   color: white;
   font-size: 24px;
   line-height: 28px;
@@ -7,10 +7,13 @@
   opacity: 100%;
   transition-property: opacity;
   margin: 0;
+  padding: 0;
+  text-underline-offset: 13%;
+
 }
 
 @media screen and (max-width: 320px) {
-  .header__lang-choice {
+  .lang-options__choice {
     font-size: 18px;
     line-height: 20px;
   }
