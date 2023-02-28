@@ -14,25 +14,21 @@
 
 @media screen and (max-width: 1024px) {
   .place {
-    display: grid;
     grid-template-columns: 440px 1fr;
-    gap: 48px 32px;
+    gap: 48px 30px;
 
   }
 }
 
 @media screen and (max-width: 874px) {
   .place {
-    display: grid;
     grid-template-columns: 340px 1fr;
-    gap: 48px 28px;
 
   }
 }
 
 @media screen and (max-width: 665px) {
   .place {
-    display: grid;
     gap: 32px;
     grid-template-columns: 1fr;
     grid-template-areas:
